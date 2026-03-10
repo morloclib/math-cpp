@@ -3,6 +3,7 @@ module math-cpp (*)
 import math
 import root-cpp
 
+%inline
 source Cpp from "core.hpp"
     ( "morloc_pi" as pi
     , "morloc_e" as e
