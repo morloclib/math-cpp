@@ -1,0 +1,30 @@
+module math-cpp (*)
+
+import math
+import root-cpp
+
+source Cpp from "core.hpp"
+    ( "morloc_pi" as pi
+    , "morloc_e" as e
+    , "morloc_sin" as sin
+    , "morloc_cos" as cos
+    , "morloc_tan" as tan
+    , "morloc_asin" as asin
+    , "morloc_acos" as acos
+    , "morloc_atan" as atan
+    , "morloc_atan2" as atan2
+    , "morloc_sinh" as sinh
+    , "morloc_cosh" as cosh
+    , "morloc_tanh" as tanh
+    , "morloc_asinh" as asinh
+    , "morloc_acosh" as acosh
+    , "morloc_atanh" as atanh
+    , "morloc_exp" as exp
+    , "morloc_log2" as log2
+    , "morloc_log10" as log10
+    , "morloc_sqrt" as sqrt
+    , "morloc_round" as round
+    , "morloc_ceil" as ceil
+    , "morloc_floor" as floor
+    , "morloc_sign" as sign
+    )
