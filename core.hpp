@@ -5,14 +5,12 @@
 
 // Constants
 
-template <typename A>
-A morloc_pi() {
-    return static_cast<A>(M_PI);
+double morloc_pi() {
+    return M_PI;
 }
 
-template <typename A>
-A morloc_e() {
-    return static_cast<A>(M_E);
+double morloc_e() {
+    return M_E;
 }
 
 // Trigonometric
